@@ -55,7 +55,7 @@ body {
     content: '';
     height: 4px;
     width: 15px;
-    background-color: black;
+    background-color: white;
     position: absolute;
     margin-top: 18px;
     margin-left: -20px;
@@ -64,7 +64,7 @@ body {
     content: '';
     height: 4px;
     width: 15px;
-    background-color: black;
+    background-color: white;
     position: absolute;
     margin-top: 18px;
     margin-right: -20px;
@@ -81,5 +81,50 @@ body {
 }
 #social_media{
     height: 0px;
-    
+    width: 0;
+    background-color: #69B4F8;
+    border-radius: 50%;
+    position: fixed;
+    left: 95%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+#msg {
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 63%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+#social_media ul {
+    width: 160px;
+    height: 100px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+#social_media_ul li {
+    float: li;
+    margin: 4px;
+}
+#container {
+    opacity: 0;
+    visibility: hidden;
+}
+#social_circle_layer {
+    height: 0;
+    width: 0;
+    background-color: #92c7fb;
+    border-radius: 50%;
+    position: fixed;
+    left: 97%;
+    top: -1%;
+    transform: translate(-50%, -50%);
 }
