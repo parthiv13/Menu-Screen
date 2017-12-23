@@ -10,5 +10,8 @@ $(document).ready(function() {
         $("#container").delay(300).animate({opacity: "1"});
         $("#container").css("visibility", "visible");
         $("#social_circle_layer").animate({height:'450px', width: '450px'});
+
+        $("#bg").delay(200).animate({opacity:"1"});
+        $("#bg").css("visibility","visible");
     });
 });
